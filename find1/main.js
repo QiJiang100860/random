@@ -8,11 +8,120 @@ $(document).ready(function () {
     })
 
     function ajaxGetData() {
-        $.ajax({
-            url:"./data.json",
-            type:"GET",
-            success:reset
-        })
+        /**
+         * 此处注释异步请求
+         * */
+        // $.ajax({
+        //     url:"./data.json",
+        //     type:"GET",
+        //     dataType: "json",
+        //     success:reset
+        // })
+
+        /**
+         *
+         * 此处模拟假数据代替请求完成之后的数据
+         *
+         * */
+
+        var data = [
+            {
+                "radioName":"req1",
+                "ques":"你感觉职业规划对人生有没有帮助？",
+                "ans": [
+                    {
+                        "isTrue":"0",
+                        "ansText":"有"
+                    },{
+                        "isTrue":"0",
+                        "ansText":"没有"
+                    },{
+                        "isTrue":"1",
+                        "ansText":"因人而异"
+                    },{
+                        "isTrue":"0",
+                        "ansText":"从来没有想过"
+                    }
+                ]
+            },
+            {
+                "radioName":"req2",
+                "ques":"你觉得恋爱在大学期间是不是有必要的？",
+                "ans": [
+                    {
+                        "isTrue":"0",
+                        "ansText":"有"
+                    },{
+                        "isTrue":"0",
+                        "ansText":"没有"
+                    },{
+                        "isTrue":"1",
+                        "ansText":"不确定"
+                    },{
+                        "isTrue":"0",
+                        "ansText":"为什么告诉你"
+                    }
+                ]
+            },
+            {
+                "radioName":"req3",
+                "ques":"你觉得你自己的生活怎么样？",
+                "ans": [
+                    {
+                        "isTrue":"0",
+                        "ansText":"不怎么样？努力买房子"
+                    },{
+                        "isTrue":"0",
+                        "ansText":"努力赚钱"
+                    },{
+                        "isTrue":"1",
+                        "ansText":"天天打篮球，看NBA"
+                    },{
+                        "isTrue":"0",
+                        "ansText":"得过且过，当一天和尚撞一天钟"
+                    }
+                ]
+            },
+            {
+                "radioName":"req4",
+                "ques":"你对自己的评价？",
+                "ans": [
+                    {
+                        "isTrue":"0",
+                        "ansText":"开朗"
+                    },{
+                        "isTrue":"0",
+                        "ansText":"活泼"
+                    },{
+                        "isTrue":"0",
+                        "ansText":"够义气，朋友多"
+                    },{
+                        "isTrue":"1",
+                        "ansText":"孝顺，上进心强"
+                    }
+                ]
+            },
+            {
+                "radioName":"req5",
+                "ques":"女朋友经常逛淘宝、京东、天猫，你怎么看？",
+                "ans": [
+                    {
+                        "isTrue":"1",
+                        "ansText":"女朋友被我惯得，我乐意"
+                    },{
+                        "isTrue":"0",
+                        "ansText":"大发雷霆"
+                    },{
+                        "isTrue":"0",
+                        "ansText":"忍了，不搭理她"
+                    },{
+                        "isTrue":"0",
+                        "ansText":"她逛她的，我玩LOL，谁不管谁"
+                    }
+                ]
+            }
+        ]
+        reset(data);
     }
 
     /*解析数据*/
