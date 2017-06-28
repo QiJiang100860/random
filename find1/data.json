@@ -1,0 +1,59 @@
+[
+  {
+    "radioName":"req1",
+    "ques":"Q.你感觉职业规划对人生有没有帮助？",
+    "ans": [
+      {
+        "isTrue":"0",
+        "ansText":"有"
+      },{
+        "isTrue":"0",
+        "ansText":"没有"
+      },{
+        "isTrue":"1",
+        "ansText":"因人而异"
+      },{
+        "isTrue":"0",
+        "ansText":"从来没有想过"
+      }
+    ]
+  },
+  {
+    "radioName":"req2",
+    "ques":"Q.你觉得恋爱在大学期间是不是有必要的？",
+    "ans": [
+      {
+        "isTrue":"0",
+        "ansText":"有"
+      },{
+        "isTrue":"0",
+        "ansText":"没有"
+      },{
+        "isTrue":"1",
+        "ansText":"不确定"
+      },{
+        "isTrue":"0",
+        "ansText":"为什么告诉你"
+      }
+    ]
+  },
+  {
+    "radioName":"req3",
+    "ques":"Q.你觉得你自己的生活怎么样？",
+    "ans": [
+      {
+        "isTrue":"0",
+        "ansText":"不怎么样？努力买房子"
+      },{
+        "isTrue":"0",
+        "ansText":"努力赚钱"
+      },{
+        "isTrue":"1",
+        "ansText":"天天打篮球，看NBA"
+      },{
+        "isTrue":"0",
+        "ansText":"得过且过，当一天和尚撞一天钟"
+      }
+    ]
+  }
+]
