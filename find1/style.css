@@ -33,3 +33,16 @@ h1{
 .btn_right{
     text-align: right;
 }
+.btn_right button{
+    padding: 5px 10px;
+    background: #FF4229;
+    color: #fff;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s;
+}
+.btn_right button:hover{
+    background: #29FFE9;
+    color: #333333;
+}

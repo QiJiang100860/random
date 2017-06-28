@@ -68,7 +68,6 @@ $(document).ready(function () {
     //检查正确答案
     function checkTrue(ele) {
         for(var i = 0;i<ele.length;i++){
-            debugger;
             if(ele[i].dataset["istrue"]==="1"){
                 $(ele[i]).css({
                     "font-weight":"700",
@@ -77,6 +76,7 @@ $(document).ready(function () {
                 $(ele[i]).siblings("b").css({
                     "color":"#4FFF00"
                 });
+                $(ele[i]).siblings("label").find("input").attr("checked","");
             }
         }
     }
