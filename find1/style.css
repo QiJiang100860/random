@@ -21,7 +21,8 @@ h1{
     padding: 10px 20px;
 }
 .anser_item p{
-    line-height: 30px;
+    line-height: 36px;
+    height: 36px;
     font-size:14px;
     color: #666;
     box-sizing: border-box;

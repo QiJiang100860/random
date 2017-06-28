@@ -1,7 +1,7 @@
 [
   {
     "radioName":"req1",
-    "ques":"Q.你感觉职业规划对人生有没有帮助？",
+    "ques":"你感觉职业规划对人生有没有帮助？",
     "ans": [
       {
         "isTrue":"0",
@@ -20,7 +20,7 @@
   },
   {
     "radioName":"req2",
-    "ques":"Q.你觉得恋爱在大学期间是不是有必要的？",
+    "ques":"你觉得恋爱在大学期间是不是有必要的？",
     "ans": [
       {
         "isTrue":"0",
@@ -39,7 +39,7 @@
   },
   {
     "radioName":"req3",
-    "ques":"Q.你觉得你自己的生活怎么样？",
+    "ques":"你觉得你自己的生活怎么样？",
     "ans": [
       {
         "isTrue":"0",
@@ -53,6 +53,44 @@
       },{
         "isTrue":"0",
         "ansText":"得过且过，当一天和尚撞一天钟"
+      }
+    ]
+  },
+  {
+    "radioName":"req4",
+    "ques":"你对自己的评价？",
+    "ans": [
+      {
+        "isTrue":"0",
+        "ansText":"开朗"
+      },{
+        "isTrue":"0",
+        "ansText":"活泼"
+      },{
+        "isTrue":"0",
+        "ansText":"够义气，朋友多"
+      },{
+        "isTrue":"1",
+        "ansText":"孝顺，上进心强"
+      }
+    ]
+  },
+  {
+    "radioName":"req5",
+    "ques":"女朋友经常逛淘宝、京东、天猫，你怎么看？",
+    "ans": [
+      {
+        "isTrue":"1",
+        "ansText":"女朋友被我惯得，我乐意"
+      },{
+        "isTrue":"0",
+        "ansText":"大发雷霆"
+      },{
+        "isTrue":"0",
+        "ansText":"忍了，不搭理她"
+      },{
+        "isTrue":"0",
+        "ansText":"她逛她的，我玩LOL，谁不管谁"
       }
     ]
   }

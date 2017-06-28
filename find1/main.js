@@ -18,9 +18,9 @@ $(document).ready(function () {
     /*解析数据*/
     function reset(data) {
         var str = "";
-        for(var x in data){
+        for(var x in shuffle(data)){
             str += "<li>"+
-                "<h1>"+data[x].ques+"</h1>"+
+                "<h1>Q"+(Number(x)+1)+"."+data[x].ques+"</h1>"+
                 "<div class='anser_item'>";
             for(var y in shuffle(data[x].ans)){
                 var letter;
@@ -71,10 +71,12 @@ $(document).ready(function () {
             if(ele[i].dataset["istrue"]==="1"){
                 $(ele[i]).css({
                     "font-weight":"700",
-                    "color":"#4FFF00"
+                    "color":"#4FFF00",
+                    "font-size":"16px"
                 });
                 $(ele[i]).siblings("b").css({
-                    "color":"#4FFF00"
+                    "color":"#4FFF00",
+                    "font-size":"16px"
                 });
                 $(ele[i]).siblings("label").find("input").attr("checked","");
             }
